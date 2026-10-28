@@ -38,6 +38,12 @@ export const ArtworkShowcase: React.FC<ArtworkShowcaseProps> = ({ initialIndex =
         return "T⁻ = T⁺, k⁻ ∇T⁻ · n = k⁺ ∇T⁺ · n (Boundary Condition 6)";
       case 7:
         return "ρ Cp (∂T/∂t) + ρ Lm (∂Lf/∂t) = ∇ · (k ∇T) + Q_laser, Lf = flc2hs(T - Tm, 50)";
+      case 8:
+        return "v_n = ṁ / ρ = -P_recoil + k_mesh (ALE Moving Mesh Formulation)";
+      case 9:
+        return "q_conv = h · (T - T_amb), h = 1000 W/(m²·K), P_env = P_hydro + P_dyn";
+      case 10:
+        return "Recast Ridge Height: 106.4 μm (Si) to 156.94 μm (Si/SiO2) at t = 3.3 ms";
       default:
         return "COMSOL Multiphysics ALE Coupled Transient Formulation";
     }

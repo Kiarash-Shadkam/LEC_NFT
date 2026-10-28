@@ -1,0 +1,58 @@
+{
+  "name": "Quantum Engraving #010 — Recast Crest",
+  "description": "The permanent monument to a transient storm: as laser illumination ceases, expelled liquid silicon freezes into towering crown-like annular ridges over 150 micrometers tall (156.94 μm in bilayer Si/SiO2). A crystalline record of violent multi-millisecond hydrodynamics, displaying rippled solidification terraces and subtle iridescent tempering colors.\n\nConceptually derived from Master's Thesis research in Nanophotonics and numerical simulations in COMSOL Multiphysics ('Modeling and implementation of laser engraving considering the impact of layers material', University of Tabriz). This artwork visualizes rapid non-equilibrium surface re-solidification and recast ridge accumulation.\n\nNote: This artwork is an artistic interpretation inspired by multiphysics simulations and theoretical models; it does not claim to be a raw numerical export.",
+  "image": "ipfs://QmQuantumEngraving010/qec_nft_010.jpg",
+  "external_url": "https://opensea.io/collection/quantum-engraving-collection",
+  "edition": "1/1",
+  "creator": "Alireza Mahdipour Shadkam",
+  "attributes": [
+    {
+      "trait_type": "Recast Ridge Height",
+      "value": "156.94 μm (Si/SiO2) / 106.4 μm (Si)"
+    },
+    {
+      "trait_type": "Solidification Regime",
+      "value": "Rapid Non-Equilibrium Re-crystallization"
+    },
+    {
+      "trait_type": "Morphology",
+      "value": "Hydrodynamic Crown Crest"
+    },
+    {
+      "trait_type": "Tempering Temper",
+      "value": "Titanium Violet & Steel Blue Iridescence"
+    },
+    {
+      "trait_type": "Final State",
+      "value": "Permanent Topographical Relic"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Ambient Air (h = 10 W/m²·K)"
+    },
+    {
+      "trait_type": "Governing Physics",
+      "value": "Recast Ridge Freezing & Phase Evolution"
+    },
+    {
+      "trait_type": "Scientific Framework",
+      "value": "COMSOL Multiphysics ALE Modeling"
+    },
+    {
+      "trait_type": "Collection Index",
+      "value": "010 of 010"
+    },
+    {
+      "trait_type": "Edition Type",
+      "value": "Original 1 of 1"
+    }
+  ],
+  "scientific_metadata": {
+    "thesis_title": "Modeling and implementation of laser engraving considering the impact of layers material",
+    "faculty": "Faculty of Electrical and Computer Engineering, University of Tabriz",
+    "specialization": "Nanophotonics",
+    "key_equation": "recast_ridge_height = 106.4 μm (Si) to 156.94 μm (Si/SiO2) at t = 3.3 ms",
+    "thesis_reference": "Chapter 4, Table 4-1, Page 77; Chapter 4, Fig. 10-4 & 11-4, Page 76",
+    "suggested_listing_price": "0.30 ETH (~$820 USD)"
+  }
+}

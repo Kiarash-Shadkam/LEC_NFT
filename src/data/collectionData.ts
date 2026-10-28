@@ -255,7 +255,8 @@ export const ARTWORKS: NFTItem[] = [
       "Smooth parabolic bottom glowing with residual heat",
       "Monumental architectural scale of micro-manufacturing"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_008.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.25 ETH",
     suggestedPriceUsd: "~$680",
@@ -282,7 +283,8 @@ export const ARTWORKS: NFTItem[] = [
       "Pristine, debris-free glassy crater rim without recast spatter",
       "Acoustic bubble collapse shockwaves diffusing in water"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_009.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.28 ETH",
     suggestedPriceUsd: "~$760",
@@ -310,7 +312,8 @@ export const ARTWORKS: NFTItem[] = [
       "Micro-terraces and ripples solidified in mid-motion",
       "Dramatic oblique lighting casting long shadows across the wafer"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_010.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.30 ETH",
     suggestedPriceUsd: "~$820",

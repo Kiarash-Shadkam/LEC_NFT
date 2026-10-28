@@ -1,0 +1,58 @@
+{
+  "name": "Quantum Engraving #008 — Micro Cavity",
+  "description": "The sculpted architecture of photonics: an engraved conical micro-cavity reaching depths of over 200 micrometers within crystalline silicon. A visual testament to numerical moving-mesh mathematics (Arbitrary Lagrangian-Eulerian, ALE) with hyperelastic smoothing and steep sidewall taper angles (~85°).\n\nConceptually derived from Master's Thesis research in Nanophotonics and numerical simulations in COMSOL Multiphysics ('Modeling and implementation of laser engraving considering the impact of layers material', University of Tabriz). This artwork visualizes finite element mesh deformation and normal boundary recession velocity (vn = -Precoil + k_mesh).\n\nNote: This artwork is an artistic interpretation inspired by multiphysics simulations and theoretical models; it does not claim to be a raw numerical export.",
+  "image": "ipfs://QmQuantumEngraving008/qec_nft_008.jpg",
+  "external_url": "https://opensea.io/collection/quantum-engraving-collection",
+  "edition": "1/1",
+  "creator": "Alireza Mahdipour Shadkam",
+  "attributes": [
+    {
+      "trait_type": "Material",
+      "value": "Crystalline Silicon Cavity"
+    },
+    {
+      "trait_type": "Hole Depth",
+      "value": "160.58 μm (Si) / 231.01 μm (Si/SiO2)"
+    },
+    {
+      "trait_type": "Numerical Method",
+      "value": "Arbitrary Lagrangian-Eulerian (ALE)"
+    },
+    {
+      "trait_type": "Mesh Regularization",
+      "value": "Hyperelastic Smoothing & Remeshing"
+    },
+    {
+      "trait_type": "Sidewall Taper",
+      "value": "~85 Degrees"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Ambient Air (h = 10 W/m²·K)"
+    },
+    {
+      "trait_type": "Governing Physics",
+      "value": "ALE Free Surface Tracking & Mesh Dynamics"
+    },
+    {
+      "trait_type": "Scientific Framework",
+      "value": "COMSOL Multiphysics ALE Modeling"
+    },
+    {
+      "trait_type": "Collection Index",
+      "value": "008 of 010"
+    },
+    {
+      "trait_type": "Edition Type",
+      "value": "Original 1 of 1"
+    }
+  ],
+  "scientific_metadata": {
+    "thesis_title": "Modeling and implementation of laser engraving considering the impact of layers material",
+    "faculty": "Faculty of Electrical and Computer Engineering, University of Tabriz",
+    "specialization": "Nanophotonics",
+    "key_equation": "vn = m_dot / rho = -Precoil + k_mesh, depth = 160.58 - 231.01 μm",
+    "thesis_reference": "Chapter 3, Section 3-3-3, Page 55; Chapter 4, Fig. 10-4 & 11-4, Page 76",
+    "suggested_listing_price": "0.25 ETH (~$680 USD)"
+  }
+}
