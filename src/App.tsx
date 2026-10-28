@@ -6,17 +6,16 @@ import { LaserPhysicsSimulation } from './components/LaserPhysicsSimulation';
 import { CollectionRoadmap } from './components/CollectionRoadmap';
 import { ThesisRepository } from './components/ThesisRepository';
 import { OpenSeaDeploymentGuide } from './components/OpenSeaDeploymentGuide';
+import { ARTWORKS } from './data/collectionData';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('overview');
   const [selectedArtworkIndex, setSelectedArtworkIndex] = useState<number>(0);
 
   const handleSelectArtwork = (artworkId: string) => {
-    if (artworkId === 'qec-001') {
-      setSelectedArtworkIndex(0);
-      setActiveTab('artwork');
-    } else if (artworkId === 'qec-002') {
-      setSelectedArtworkIndex(1);
+    const foundIndex = ARTWORKS.findIndex(a => a.id === artworkId);
+    if (foundIndex !== -1 && ARTWORKS[foundIndex].status === 'completed') {
+      setSelectedArtworkIndex(foundIndex);
       setActiveTab('artwork');
     } else {
       setActiveTab('roadmap');

@@ -1,0 +1,54 @@
+{
+  "name": "Quantum Engraving #003 — Recoil Pressure",
+  "description": "The tremendous kinetic consequence of surface phase evaporation: as silicon atoms break binding energies at 3538 K, the expanding vapor plume imparts a crushing downward recoil pressure reaching 0.81 Megapascals (8.1 x 10^5 Pa), carving an incandescent parabolic crater and violently expelling liquid molten silicon sheets outward in sweeping aerodynamic arcs.\n\nConceptually derived from Master's Thesis research in Nanophotonics and numerical simulations in COMSOL Multiphysics ('Modeling and implementation of laser engraving considering the impact of layers material', University of Tabriz). This artwork visualizes the Clausius-Clapeyron recoil balance and normal boundary momentum transfer.\n\nNote: This artwork is an artistic interpretation inspired by multiphysics simulations and theoretical models; it does not claim to be a raw numerical export.",
+  "image": "ipfs://QmQuantumEngraving003/qec_nft_003.jpg",
+  "external_url": "https://opensea.io/collection/quantum-engraving-collection",
+  "edition": "1/1",
+  "creator": "Alireza Mahdipour Shadkam",
+  "attributes": [
+    {
+      "trait_type": "Material",
+      "value": "Silicon Melt Pool"
+    },
+    {
+      "trait_type": "Peak Recoil Pressure",
+      "value": "0.81 MPa (8.1 x 10^5 Pa)"
+    },
+    {
+      "trait_type": "Vaporization Temp",
+      "value": "3538 K"
+    },
+    {
+      "trait_type": "Physical State",
+      "value": "Melt Expulsion & Crater Deepening"
+    },
+    {
+      "trait_type": "Environment",
+      "value": "Ambient Air (h = 10 W/m²·K)"
+    },
+    {
+      "trait_type": "Governing Physics",
+      "value": "Clausius-Clapeyron Vapor Momentum Balance"
+    },
+    {
+      "trait_type": "Scientific Framework",
+      "value": "COMSOL Multiphysics ALE Modeling"
+    },
+    {
+      "trait_type": "Collection Index",
+      "value": "003 of 010"
+    },
+    {
+      "trait_type": "Edition Type",
+      "value": "Original 1 of 1"
+    }
+  ],
+  "scientific_metadata": {
+    "thesis_title": "Modeling and implementation of laser engraving considering the impact of layers material",
+    "faculty": "Faculty of Electrical and Computer Engineering, University of Tabriz",
+    "specialization": "Nanophotonics",
+    "key_equation": "P_recoil = P_sat(Ts) * (1 - P_ambient / P_sat(Ts)), P_max = 8.1 x 10^5 Pa",
+    "thesis_reference": "Chapter 2, Eq. 4-2, Page 20; Chapter 4, Fig. 7-4 & 8-4, Diagram 5-4 & 6-4, Pages 70-73",
+    "suggested_listing_price": "0.25 ETH (~$680 USD)"
+  }
+}

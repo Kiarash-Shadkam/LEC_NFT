@@ -113,7 +113,8 @@ export const ARTWORKS: NFTItem[] = [
       "Deep crimson and white vapor reaction zone at 0.81 MPa pressure peak",
       "Sharp physical vectors of downward reaction momentum"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_003.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.25 ETH",
     suggestedPriceUsd: "~$680",
@@ -141,7 +142,8 @@ export const ARTWORKS: NFTItem[] = [
       "Silky liquid metal hydrodynamic curvature along crater walls",
       "Balance between outward recoil velocity and inward surface tension pulls"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_004.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.24 ETH",
     suggestedPriceUsd: "~$650",
@@ -169,7 +171,8 @@ export const ARTWORKS: NFTItem[] = [
       "Atmospheric scattering creating subtle rainbow diffraction fringes",
       "Crisp boundary between liquid pool and vapor dispersal"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_005.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.23 ETH",
     suggestedPriceUsd: "~$620",

@@ -9,6 +9,11 @@ interface ArtworkShowcaseProps {
 
 export const ArtworkShowcase: React.FC<ArtworkShowcaseProps> = ({ initialIndex = 0 }) => {
   const [selectedIndex, setSelectedIndex] = useState(initialIndex);
+
+  React.useEffect(() => {
+    setSelectedIndex(initialIndex);
+  }, [initialIndex]);
+
   const artwork = ARTWORKS[selectedIndex];
   const [copied, setCopied] = useState(false);
   const [isZoomed, setIsZoomed] = useState(false);
@@ -16,6 +21,23 @@ export const ArtworkShowcase: React.FC<ArtworkShowcaseProps> = ({ initialIndex =
   const [downloadingZip, setDownloadingZip] = useState(false);
 
   const completedArtworks = ARTWORKS.filter(a => a.status === 'completed');
+
+  const getArtworkEquation = (index: number) => {
+    switch (index) {
+      case 1:
+        return "Q_laser(r, t) = A · (2 P₀ / π R_b²) · exp(-2 r² / R_b²) · B(t)";
+      case 2:
+        return "Boxide(T) = flc2hs(Tcrack - T, δT), Tcrack = 1900 K, k_SiO2 = 1.4 W/(m·K)";
+      case 3:
+        return "P_recoil = P_sat(Ts) · (1 - P_amb / P_sat(Ts)), P_max = 8.1 × 10⁵ Pa (0.81 MPa)";
+      case 4:
+        return "τ_t = -(dγ/dT) · ∇Ts, dγ/dT = -1.6 × 10⁻⁴ N/(m·K)";
+      case 5:
+        return "ṁ_evap = P_sat(Ts) / √(2π R Ts), Tv = 3538 K, Lv = 1.278 × 10⁷ J/kg";
+      default:
+        return "COMSOL Multiphysics ALE Coupled Transient Formulation";
+    }
+  };
 
   const handleCopyMetadata = () => {
     const metadataString = JSON.stringify(artwork, null, 2);
@@ -63,7 +85,7 @@ export const ArtworkShowcase: React.FC<ArtworkShowcaseProps> = ({ initialIndex =
 
           <span className="px-2.5 py-1 rounded-full text-[11px] font-mono bg-emerald-950/80 text-emerald-300 border border-emerald-500/40 flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-            ۲ اثر از ۱۰ اثر نهایی شد (1/1 Master)
+            {completedArtworks.length} اثر از ۱۰ اثر نهایی شد (1/1 Master)
           </span>
         </div>
       </div>
@@ -246,9 +268,7 @@ export const ArtworkShowcase: React.FC<ArtworkShowcaseProps> = ({ initialIndex =
                 <span className="font-mono text-cyan-300">{artwork.thesisRef}</span>
               </div>
               <div className="p-2.5 rounded-lg bg-black/60 font-mono text-[11px] text-amber-200/90 overflow-x-auto text-left" dir="ltr">
-                {artwork.index === 1 
-                  ? "Q_laser(r, t) = A · (2 P₀ / π R_b²) · exp(-2 r² / R_b²) · B(t)"
-                  : "Boxide(T) = flc2hs(Tcrack - T, delta_T), Tcrack = 1900 K, k_SiO2 = 1.4 W/(m·K)"}
+                {getArtworkEquation(artwork.index)}
               </div>
               <p className="text-[11px] text-slate-400 leading-relaxed">
                 {artwork.scientificBasis}
