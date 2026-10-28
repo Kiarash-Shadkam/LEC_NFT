@@ -34,6 +34,10 @@ export const ArtworkShowcase: React.FC<ArtworkShowcaseProps> = ({ initialIndex =
         return "τ_t = -(dγ/dT) · ∇Ts, dγ/dT = -1.6 × 10⁻⁴ N/(m·K)";
       case 5:
         return "ṁ_evap = P_sat(Ts) / √(2π R Ts), Tv = 3538 K, Lv = 1.278 × 10⁷ J/kg";
+      case 6:
+        return "T⁻ = T⁺, k⁻ ∇T⁻ · n = k⁺ ∇T⁺ · n (Boundary Condition 6)";
+      case 7:
+        return "ρ Cp (∂T/∂t) + ρ Lm (∂Lf/∂t) = ∇ · (k ∇T) + Q_laser, Lf = flc2hs(T - Tm, 50)";
       default:
         return "COMSOL Multiphysics ALE Coupled Transient Formulation";
     }

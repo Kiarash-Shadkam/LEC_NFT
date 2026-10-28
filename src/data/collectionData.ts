@@ -199,7 +199,8 @@ export const ARTWORKS: NFTItem[] = [
       "Abrupt transition of crystalline atomic arrangement to glassy network",
       "Microscopic depth cross-section aesthetic"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_006.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.22 ETH",
     suggestedPriceUsd: "~$600",
@@ -226,7 +227,8 @@ export const ARTWORKS: NFTItem[] = [
       "Luminous vapor mist floating upwards from the incandescent core",
       "Color gradient from deep violet (solid) to molten amber (liquid) and blinding white (vapor)"
     ],
-    status: "queued",
+    status: "completed",
+    image: "/images/qec_nft_007.jpg",
     aspectRatio: "1:1",
     suggestedPriceEth: "0.26 ETH",
     suggestedPriceUsd: "~$710",
