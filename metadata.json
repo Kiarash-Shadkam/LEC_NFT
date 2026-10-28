@@ -1,0 +1,6 @@
+{
+  "name": "Quantum Engraving Collection",
+  "description": "Scientific art NFT collection platform based on laser-matter interaction, thermal dynamics, and COMSOL Multiphysics modeling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
